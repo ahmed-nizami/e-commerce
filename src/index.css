@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: "Cabin", sans-serif;
+}
+
+.bg {
+  background-image: url("./assets/images/texture.webp");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.1;
+  user-select: none;
+  pointer-events: none;
+}
+
+input,
+textarea {
+  font-family: "Cabin", sans-serif;
+}
